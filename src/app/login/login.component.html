@@ -1,0 +1,12 @@
+<div class="backGround">
+<form class="login" [formGroup]="loginForm" (ngSubmit)="submitForm(loginForm)">
+  <div class="mb-3">
+    <label for="role" class="form-label text-white">Enter role type</label>
+    <input formControlName="role" type="text" class="form-control" id="role"  placeholder="A , B , C must be UpperCase">
+  </div>
+  <div *ngIf="error" class="alert alert-danger">
+    {{error}}
+</div>
+  <button type="submit" class="btn btn-primary" [disabled]="!loginForm.valid">Login</button>
+</form>
+</div>
