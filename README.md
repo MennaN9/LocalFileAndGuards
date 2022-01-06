@@ -1,3 +1,6 @@
+desc:login page and dashboard page with 3 tabs named &quot;A&quot;,&quot;B&quot; and &quot;C&quot;. Have a sample JSON data with 3 users and 3 roles. User A, User B, and User C. If User A logged in, he should be able to access only Tab A and if User B login, he
+should be able to access only Tab B. Likewise, if User C login, he should be able to access only Tab C.
+
 # Dashboard
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
